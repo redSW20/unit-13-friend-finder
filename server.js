@@ -17,7 +17,7 @@ app.use(express.json());
 // Import routes
 //console.log();
 var apiRoutes = require("./app/routing/apiRoutes")(app);
-var htmlRoutes = require("./app/routing/htmlRoutes")(app,path);
+var htmlRoutes = require("./app/routing/htmlroutes")(app,path);
 
 
 
